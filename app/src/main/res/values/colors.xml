@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+	<color name="colorPrimary">#B12009</color>
+    <color name="colorPrimaryDark">#B30100</color>
+    <color name="colorAccent">#000087</color>
+    <color name="colorBrown">#C2A305</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorPCB0">#000087</color>
+    <color name="colorPCB1">#2A95BF</color>
+    <color name="colorPCB2">#19afea</color>
+    <color name="colorPCB3">#2384aa</color>
+    <color name="colorPCG0">#a8a8a8</color>
+    <color name="colorPCG1">#595959</color>
+    <color name="colorPCG2">#2B2B2B</color>
+    <color name="colorPCG3">#c9c9c9</color>
+    <color name="colorPCG4">#737373</color>
+    <color name="colorPCG5">#e0e0e0</color>
+    <color name="colorPCG6">#E5E5E5</color>
+    <color name="colorPCG7">#999999</color>
+    <color name="colorPCG8">#777777</color>
+    <color name="colorPCW1">#FAFAFA</color>
+    <color name="colorPCW2">#f9f9f9</color>
+    <color name="colorPCP0">#9B59B6</color>
+    <color name="colorPCP1">#503982</color>
+    <color name="colorPCGR0">#27AE60</color>
+    <color name="colorPCGR1">#008000</color>
+
+    <color name="cG0">#c6c6c6</color>
+    <color name="cG1">#737373</color>
+    <color name="cG2">#595959</color>
+    <color name="cG3">#2B2B2B</color>
+    <color name="cG4">#E5E5E5</color>
+    <color name="cG5">#999999</color>
+    <color name="cG6">#e0e0e0</color>
+    <color name="cG7">#777777</color>
+    <color name="cG8">#555555</color>
+    <color name="cG11">#737373</color>
+    <color name="cG12">#595959</color>
+
+    <color name="cW0">#FFFFFF</color>
+    <color name="cW1">#FAFAFA</color>
+    <color name="cW2">#f2f2f2</color>
+
+    <color name="cO1">#FFA500</color>
+</resources>

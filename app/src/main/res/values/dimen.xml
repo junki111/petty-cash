@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="margin_small">5dp</dimen>
+    <dimen name="card_margin">10dp</dimen>
+    <dimen name="top_margin">15dp</dimen>
+    <dimen name="twenty_five">25dp</dimen>
+    <dimen name="fifteen">15dp</dimen>
+    <dimen name="thirty_five">35dp</dimen><![CDATA[
+
+    >
+    ]]>
+    <dimen name="seventy_two">72dp</dimen>
+    <dimen name="zero_point_seven">0.70000005dip</dimen>
+    <dimen name="twenty_four">24sp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="thirteen">13sp</dimen>
+    <dimen name="ten">10dp</dimen>
+    <dimen name="eight">8dp</dimen>
+</resources>

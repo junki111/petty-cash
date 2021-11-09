@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_expense"
+            android:icon="@drawable/expense_icon"
+            android:title="Create Expense" />
+
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/category_icon"
+            android:title="Categories" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Profile">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="Logout" />
+
+                <item
+                    android:id="@+id/nav_changePin"
+                    android:icon="@drawable/change_pin"
+                    android:title="Change Pin" />
+            </menu>
+
+        </item>
+    </group>
+
+<!--    <item android:id="@+id/action_search"-->
+<!--        android:icon="@drawable/search_icon"-->
+<!--        android:title="Search"-->
+<!--        app:showAsAction="ifRoom|collapseActionView"-->
+<!--        app:actionViewClass="android.widget.SearchView" />-->
+</menu>

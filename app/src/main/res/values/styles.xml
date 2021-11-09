@@ -1,0 +1,38 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base" />
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/teal_200</item>
+        <item name="colorPrimaryDark">@color/teal_200</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Alert dialog style-->
+    <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#CB1B29</item>
+        <item name="android:textColorPrimary">#ff404040</item>
+        <item name="android:background">#ffffff</item>
+    </style>
+
+    <!--AutoComplete TextViews-->
+    <style name="AutoComplete">
+        <item name="colorControlNormal">@color/colorPCG2</item>
+        <item name="colorControlActivated">@color/colorBlack</item>
+        <item name="android:textColorHint">@color/colorPCG2</item>
+    </style>
+
+    <style name="Picslide.EditText.Style" parent="@android:style/Widget.EditText">
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+</resources>

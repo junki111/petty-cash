@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rExpense"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="#ffffff">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/expenseIconCardView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="60dp">
+
+            <ImageView
+                android:id="@+id/expenseIcon"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/expense_icon">
+
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/merchantNameRecycler"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/expenseIconCardView"
+            android:textColor="#000000"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/expenseDescriptionRecycler"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/merchantNameRecycler"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/expenseIconCardView"
+            android:textColor="#000000"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/expenseDateRecycler"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/merchantNameRecycler"
+            android:textSize="10sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/expenseAmountRecycler"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/expenseDateRecycler"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/expenseDescriptionRecycler"
+            android:gravity="center|start"
+            android:textSize="10sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/expenseCategoryRecycler"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="110dp"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@id/expenseIconCardView"
+            android:text="TextView"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

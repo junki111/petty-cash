@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="PrinterAction">
+        <item>open</item>
+        <item>queryStatus</item>
+        <item>write</item>
+        <item>close</item>
+    </string-array>
+    <string-array name="WIZARPOS">
+        <item>IDCardAction</item>
+        <item>RFCardAction</item>
+        <item>SmartCardAction</item>
+        <item>SmartCardAction_102</item>
+        <item>SmartCardAction_4442</item>
+        <item>PSAMCardAction</item>
+        <item>MSRCardAction</item>
+        <item>PINPadAction</item>
+        <item>LEDAction</item>
+        <item>SerialPortAction</item>
+        <item>CustomerDisplayAction</item>
+        <item>PrinterAction</item>
+        <item>CashDrawerAction</item>
+        <item>FingerPrintAction</item>
+        <item>CloneScreenAction</item>
+        <item>BatteryAction</item>
+        <!-- <item>EMVAction</item> -->
+    </string-array>
+</resources>
